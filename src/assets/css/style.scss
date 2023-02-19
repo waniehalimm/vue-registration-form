@@ -1,0 +1,30 @@
+// Then import Bootstrap and BootstrapVue SCSS files (order is important)
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+// Define variable defaults
+$body-bg: #FEFEFE;
+$body-color: #000;
+
+body {
+    font-size: 16px;
+    color: #000
+}
+
+.bold-l {
+    font-weight: 600;
+}
+
+.mx-input {
+    background-color: #96d3ec !important;
+    border-radius: 1rem !important;
+    height: 38px !important;
+    color: #FFF !important;
+    font-weight: 600 !important;
+    &::placeholder {
+        color: #FFF;
+    }
+}
+
+
+
