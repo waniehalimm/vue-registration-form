@@ -2,6 +2,7 @@
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 @import 'node_modules/bootstrap-vue/src/index.scss';
 
+
 // Define variable defaults
 $body-bg: #FEFEFE;
 $body-color: #000;
@@ -16,15 +17,16 @@ body {
 }
 
 .mx-input {
-    background-color: #96d3ec !important;
+    background-color: #e8f0fe !important;
     border-radius: 1rem !important;
     height: 38px !important;
-    color: #FFF !important;
+    color: #000 !important;
     font-weight: 600 !important;
     &::placeholder {
-        color: #FFF;
+        color: #C8C8C8;
     }
 }
 
+@import 'sweetalert2/dist/sweetalert2.min.css';
 
 

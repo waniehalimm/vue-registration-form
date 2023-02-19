@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import VueSweetalert2 from 'vue-sweetalert2';
 
 Vue.config.productionTip = false
 // Import Bootstrap and BootstrapVue CSS files (order is important)
@@ -12,6 +13,8 @@ import './assets/css/style.scss'
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
+
+Vue.use(VueSweetalert2);
 
 
 new Vue({
